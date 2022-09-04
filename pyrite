@@ -192,7 +192,7 @@ newfunc=$newfunc1$felements$newfunc2$saveopts$newfunc3
 cleanfunc=`echo $newfunc | sed "s/'+'//g" | sed "s/'+ '//g"`
 escnew=`echo $cleanfunc | sed 's#/#\\/#g' | sed 's/\"/\\\"/g'`
 echo "New code:"
-echo $cleanfunc > ../clean.html
+#echo $cleanfunc > ../clean.html
 #js-beautify -r --type=html ../clean.html
 echo
 echo "Replacing old openURL function with new config.. "
