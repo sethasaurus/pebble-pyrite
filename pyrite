@@ -150,13 +150,6 @@ echo
 newfunc1="Pebble.openURL(\"data:text/html,\"+encodeURIComponent(''+
         '<!DOCTYPE html><html>'+
         '<head><title>$name Configuration</title>'+
-        '<style>'+
-        'select option {'+
-            'background-color: green;'+
-            'font-weight: bold;'+
-            'color: red;'+
-        '}'+
-        '</style>'+
         '</head>'+
         '<body style=\"background-color:$bgcol;\">'+
         '<font color=\"$tcol\">'+
